@@ -1,0 +1,13 @@
+train: C:/ocon/xampp/htdocs/CartSense/dataset/train/images
+val: C:/ocon/xampp/htdocs/CartSense/dataset/valid/images
+test: C:/ocon/xampp/htdocs/CartSense/dataset/test/images
+
+nc: 41
+names: ['Afritada', 'Datu Puti Patis', 'Datu Puti soy sauce', 'Datu puti Suka', 'Moby Caramel', 'Sugar', 'Tomi', 'argentina corned beef', 'argentina meatloaf', 'bear brand', 'cheezy', 'choco mucho', 'colgate', 'creamsilk', 'egg', 'energen', 'fita', 'hansel', 'ketchup UFC', 'kopiko black', 'lemon square', 'loaded', 'lucky me cicken', 'mang tomas', 'moby chocolate', 'mountain dew', 'mr chips', 'oishi crackers', 'palmolive soap', 'pancit canton calamansi', 'pancit canton sweet  and spicy', 'pepsi', 'piattos cheese', 'pillows', 'reno', 'royal', 'san marino', 'sky flakes', 'sprite', 'sting', 'vcut cheese']
+
+roboflow:
+  workspace: jhons-workspace-ougn0
+  project: sari-sari-store-detection-ylu0e-acubg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jhons-workspace-ougn0/sari-sari-store-detection-ylu0e-acubg/dataset/1

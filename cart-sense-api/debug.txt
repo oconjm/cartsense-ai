@@ -1,0 +1,9 @@
+YOLOv5  v7.0-503-gb8493964 Python-3.11.9 torch-2.12.0+cpu CPU
+
+Fusing layers... 
+Model summary: 157 layers, 1768636 parameters, 0 gradients, 4.2 GFLOPs
+Traceback (most recent call last):
+  File "C:\ocon\xampp\htdocs\CartSense\ai\yolov5\detect.py", line 30, in <module>
+    img = torch.from_numpy(img).float() / 255.0
+          ^^^^^^^^^^^^^^^^^^^^^
+ValueError: At least one stride in the given numpy array is negative, and tensors with negative strides are not currently supported. (You can probably work around this by making a copy of your array  with array.copy().) 
