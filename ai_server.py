@@ -25,11 +25,11 @@ def ai_chat():
 
     try:
         completion = client.chat.completions.create(
-            model="mistralai/mistral-7b-instruct",
-            messages=[
-                {"role": "user", "content": user_message}
-            ]
-        )
+    model="openai/gpt-4o-mini",
+    messages=[
+        {"role": "user", "content": user_message}
+    ]
+)
 
         reply = completion.choices[0].message.content
 
