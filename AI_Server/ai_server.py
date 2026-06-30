@@ -7,6 +7,8 @@ CORS(app)
 
 import os
 
+print("API key loaded:", os.getenv("OPENROUTER_API_KEY")[:15] + "...")
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("OPENROUTER_API_KEY")
